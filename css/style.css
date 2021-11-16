@@ -52,15 +52,26 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.caption{
+  transform: translate(-50% ,-50%);
+}
 /*============= MEDIA QUERIES =============*/
-
+/*@media (min-width: 1400px) {
+.caption{
+  top:calcul()
+}
+}*/
 /* Devices under 1199px (xl) */
 @media (min-width: 1200px) {
+
 }
 /* Devices under 992px (lg) */
 @media (max-width: 992px) {
-  
+ /* .caption {
+    top:30% ;
+
+  }*/
+
 }
 /* Devices under 768px (md) */
 @media (max-width: 768px) {
